@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(16, 93, 91);
+}
+
+main__img--carousel{
+    height: 450px;
+    object-fit: cover;
+}
+/* CARDS */
+.section__cards-players{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.section__cards--titulos{
+    align-items: center;
+    margin: 10px;
+
+}
+.section_cards--imagenes{
+    width: 270px;
+    height: 350px;
+    border: 3px solid rgb(219, 198, 101);
+    margin: 5px;
+    
+}
+.section_cards--button{
+    width: 250px;
+    height: 50px ;
+    background-color: rgb(16, 93, 91);
+    margin-top: 5px;
+    border: 3px solid black;
+}
+/* BLOG */
+.section_info{
+    margin: 20px;
+    color: white;
+}
